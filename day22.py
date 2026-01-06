@@ -44,8 +44,10 @@ def main():
 
             apps.append(JobApp(company, role, date, notes=notes))
         elif choice == 2:
+            count = 1
             for app in apps:
-                print(app)
+
+                print(f"{count}) {app}")
         elif choice == 3:
             if not apps:
                 print("You need to add a job application before updating status\n")
