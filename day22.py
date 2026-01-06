@@ -1,3 +1,16 @@
+#git add adds file to be staged
+#git commit commits file to repository
+# git diff shows changes before stage
+#git diff --staged shows change in file after git add 
+#git log --oneline --decorate: shows commit history,--oneline: shows everything in one line, -- decorate: shows which branch /ref point
+#git branch : shows list of branches
+#git checkout -b "branch_name": creates a new branch named "branch_name"
+#git checkout master: goes to original branch
+#git merge "branch_name": merges branch to master
+#if you make a change to a file and save it and want to go back to the previous version: git restore day22.py
+
+
+
 class JobApp:
     def __init__(self, company: str, role: str, date: str, status: str = "applied", notes: str = ""):
         self.company = company
@@ -53,8 +66,9 @@ def main():
                 print("You need to add a job application before updating status\n")
                 continue
 
-            print("What job would you like to update status for?")
+            # print("What job would you like to update status for?")
             update = input("Please enter the company name: ")
+
 
             for app in apps:
                 if update.lower() == app.company.lower():
