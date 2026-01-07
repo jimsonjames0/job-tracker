@@ -12,9 +12,7 @@
 #git remote -v: confirms origin is set correctly, -u sets upstream so future gut push works w/o extra args
 #git remote add origin <git_url>: adds files to github repsository from remote source called origin
 #git push -u origin master pushes remote source to master branch
-
-
-
+# feature/indexed list
 class JobApp:
     def __init__(self, company: str, role: str, date: str, status: str = "applied", notes: str = ""):
         self.company = company
