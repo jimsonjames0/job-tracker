@@ -8,6 +8,10 @@
 #git checkout master: goes to original branch
 #git merge "branch_name": merges branch to master
 #if you make a change to a file and save it and want to go back to the previous version: git restore day22.py
+#if you do git add file to be staged by accident use: git restore --staged day22.py
+#git remote -v: confirms origin is set correctly, -u sets upstream so future gut push works w/o extra args
+#git remote add origin <git_url>: adds files to github repsository from remote source called origin
+#git push -u origin master pushes remote source to master branch
 
 
 
