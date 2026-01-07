@@ -1,3 +1,4 @@
+# feature/indexed list
 class JobApp:
     def __init__(self, company: str, role: str, date: str, status: str = "applied", notes: str = ""):
         self.company = company
