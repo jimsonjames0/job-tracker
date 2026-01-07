@@ -1,3 +1,4 @@
+# feature/indexed list
 #git add adds file to be staged
 #git commit commits file to repository
 # git diff shows changes before stage
@@ -13,6 +14,7 @@
 #git remote add origin <git_url>: adds files to github repsository from remote source called origin
 #git push -u origin master pushes remote source to master branch
 # feature/indexed list
+
 class JobApp:
     def __init__(self, company: str, role: str, date: str, status: str = "applied", notes: str = ""):
         self.company = company
