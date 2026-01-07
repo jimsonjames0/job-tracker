@@ -1,3 +1,5 @@
+feature/indexed-list
+# feature/indexed list
 #git add adds file to be staged
 #git commit commits file to repository
 # git diff shows changes before stage
@@ -15,6 +17,7 @@
 
 
 
+master
 class JobApp:
     def __init__(self, company: str, role: str, date: str, status: str = "applied", notes: str = ""):
         self.company = company
